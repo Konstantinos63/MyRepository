@@ -1,0 +1,29 @@
+Konstantinos Kalogerogiannis, ECO 590, Research Proposal
+
+How did a caloric labeling policy influence the health behavior of New Yorkers?
+
+The policy was implemented in 2008 from the Department of Health and Mental Hygiene to raise the concerns of the consumers as per the calorie intake of the food they consume away from home 
+(fast-food). The policy was required as a mandate for chain restaurants, on their menus and item tags. The restaurant industry strongly argued against the policy and sued the DOHMH twice 
+to prevent the implementation of the "food-law".
+
+Body Mass Index is one of the main "Health Indicators" to examine the behavior of an individual. It is also affected from the various demographic and socioeconomic factors that surround 
+the individual environment.
+So, I will study the changes in the numerical value of this variable. Also, with Diff-in-Diff and Fixed Effects, I will capture the differences in the predicted outcomes between my two
+groups (treatment, control) to measure just the policy effect.
+
+The rationale is that (1) food purchased outside the home is higher in calories, of poorer nutritional quality, and served in larger portions, which promotes overconsumption; 
+(2) the frequency of fast food consumption is associated with greater levels of body fat and overweight.
+
+Similar research paper with title: “CHAIN RESTAURANT CALORIE POSTING LAWS, OBESITY, AND CONSUMER WELFARE” was 
+published from National Bureau of Economic Research in March 2020 with authors: Courtemanche, Frisvold, Gomez, Ouayogode and Price.  They found that calorie mandates lead to a small but 
+statistically significant reduction in average BMI of 0.2 kg/ m2 (1.5 pounds) and also linked these mandates with reductions in self-reported measures of life satisfaction.
+
+I already have observational microdata for individuals on State-level from the National Health Surveys of i-Pums in CSV. The examined timeframe is 2005-2011 and the policy was implemented 
+in 2008. My control group will be composed probably at least from these 4 States: NJ,CT,MA,PA.
+
+I will import additional datasets with more specific details as per the quality of food consumed and the frequency of fast food consumption.I also want to study how the geographical 
+proximith from either metro or suburban areas affects the behavior.
+
+Empirical Model Example:
+
+BMI~ NY_d,Year_d,Earnings,Food Stamps,Age,Employment,Educ Attain,Food activity, Sports Activity,Poverty Status, Race, Marital status,Family Income, frequency of fries consumption etc...
